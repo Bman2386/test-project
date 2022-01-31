@@ -1,7 +1,7 @@
-import React from './react'
+import React from 'react'
 
 const Session = ({logout, name}) => {
-    const userName= name ? name : ''
+    const userName= name ? name.firstName : ''
 
     return (
         <div>

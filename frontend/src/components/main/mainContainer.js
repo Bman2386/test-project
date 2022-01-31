@@ -4,8 +4,6 @@ import Main from './main';
 
 const mSTP = (state) => {
     return {
-        errors: Object.values(state.errors),
-        loggedIn: state.session.isAuthenticated
     };
 };
 

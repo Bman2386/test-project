@@ -1,4 +1,4 @@
-import {connect} from 'react-router-dom';
+import {connect} from 'react-redux';
 import { logout } from '../../actions/session_actions';
 import Session from './session';
 

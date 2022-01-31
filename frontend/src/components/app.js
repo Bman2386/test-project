@@ -1,12 +1,12 @@
 import mainContainer from './main/mainContainer';
 import sessionContainer from './session/sessionContainer';
+import {AuthRoute, ProtectedRoute} from '../util/route_util';
+import React from 'react';
 
 const App = () => (
     <div>
-        <Switch>
             <AuthRoute exact path="/" component={mainContainer} />
             <ProtectedRoute path='/session' component={sessionContainer} />
-        </Switch>
     </div>
 );
 
