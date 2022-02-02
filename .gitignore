@@ -26,3 +26,8 @@ yarn-error.log*
 /frontend/node_modules
 config/keys_dev.js
 /config/my_keys_dev.js
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
